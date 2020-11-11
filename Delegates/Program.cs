@@ -38,6 +38,7 @@ namespace Delegates
             Home home = new Home();
             home.Address = "Tritonos";
             home.Name = "Michalopoulos";
+             
 
             PrintHome printDel;
             printDel = give => Console.WriteLine($"{home.Address}, {home.Name}");
